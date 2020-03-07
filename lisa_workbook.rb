@@ -1,16 +1,17 @@
 =begin
+Lisa's Workbook 
 
 Challenge link: https://www.hackerrank.com/challenges/lisa-workbook/problem?h_r=internal-search
 
-Lisa just got a new math workbook. A workbook contains exercise problems, grouped into chapters. Lisa believes a problem to be special if its index (within a chapter) is the same as the page number where it's located. The format of Lisa's book is as follows:
+Lisa just got a new math workbook. A workbook contains exercise problems, grouped into chapters. 
+Lisa believes a problem to be special if its index (within a chapter) is the same as the page number where it's located. The format of Lisa's book is as follows:
 
-There are  chapters in Lisa's workbook, numbered from  to .
-The  chapter has  problems, numbered from  to .
-Each page can hold up to  problems. Only a chapter's last page of exercises may contain fewer than  problems.
+There are n chapters in Lisa's workbook, numbered from 1 to n.
+The ith chapter has  problems, numbered from 1 to arr[i] .
+Each page can hold up to k problems. Only a chapter's last page of exercises may contain fewer than k problems.
 Each new chapter starts on a new page, so a page will never contain problems from more than one chapter.
-The page number indexing starts at .
+The page number indexing starts at 1.
 Given the details for Lisa's workbook, can you count its number of special problems?
-
 
 =end
 
