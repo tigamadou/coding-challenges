@@ -10,9 +10,7 @@ In a single move, you can move a ladybug from its current position to any empty 
 
 Link: https://www.hackerrank.com/contests/microverse-coding-challenges/challenges/happy-ladybugs/problem
 =end
-rescue => exception
-	
-end
+
 
 
 def happyLadybugs(b)
