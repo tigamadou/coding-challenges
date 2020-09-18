@@ -16,17 +16,14 @@ class Node
     end
     
     def add(number)
-      new_node = Node.new(number)
-      new_node.next_node = nil
-      if @head.nil? 
-        @head = new_node
-      else
-        last = @head
-        while(last.next_node)
-          last = last.next_node
+        new_node = Node.new(number)
+        if @head.nil? 
+            @head = new_node
+            @tail = @head
+        else
+            @tail.next_node = new_node
+            @tail = @tail.next_node
         end
-        last.next_node = new_node
-      end
      
     end
   
