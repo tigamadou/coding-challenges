@@ -1,3 +1,4 @@
+#Heap's algorithm - Used to generate all possible permutations of n objects
 def heap_permutation(data, n)
     if n == 1
         print data
